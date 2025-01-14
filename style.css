@@ -1,8 +1,31 @@
-html {background-color: orange;}
-* {color: whitesmoke;box-sizing: border-box;}
-div {background-color: gray;padding: 20px;}
-header {background-color: lightsteelblue;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-li {display: inline;text-align: right;flex-direction: row;align-items: flex-end;}
-nav {background-color: darkorange}
-h2 {font-size: 30pt;flex: auto;}
-p {font-size: 20pt;}
+html {
+  background-color: orange;
+}
+* {
+  color: whitesmoke;
+  box-sizing: border-box;
+}
+div {
+  background-color: gray;
+  padding: 20px;
+}
+header {
+  background-color: lightsteelblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+li {
+  display: inline;
+  text-align: right;
+  flex-direction: row;
+  align-items: flex-end;
+}
+nav {
+  background-color: darkorange;
+}
+h2 {
+  font-size: 30pt;
+  flex: auto;
+}
+p {
+  font-size: 20pt;
+}
