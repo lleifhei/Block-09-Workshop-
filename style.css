@@ -10,6 +10,7 @@ div {
   padding: 20px;
 }
 header {
+  display: flex;
   background-color: lightsteelblue;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
@@ -19,12 +20,14 @@ li {
   flex-direction: row;
   align-items: flex-end;
 }
-nav {
-  background-color: darkorange;
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
 }
 h2 {
+  display: inline-flex;
   font-size: 30pt;
-  flex: auto;
 }
 p {
   font-size: 20pt;
