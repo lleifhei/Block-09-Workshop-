@@ -1,18 +1,24 @@
 html {
   background-color: orange;
 }
-* {
-  color: whitesmoke;
-  box-sizing: border-box;
+body {
+  color: white;
+  display: grid; grid-template-columns: 2fr;
+  background-color: orange;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 div {
   background-color: gray;
   padding: 20px;
 }
-header {
-  position: fixed; top: 0;
-  background-color: lightsteelblue;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 li {
   display: inline;
@@ -21,8 +27,7 @@ li {
   align-items: flex-end;
 }
 a {
-  text-decoration: none;
-  color: black;
+  color: white;
   padding: 10px;
 }
 h2 {
@@ -31,4 +36,29 @@ h2 {
 }
 p {
   font-size: 20pt;
+}
+nav {box-shadow: 0 0 12px -2px black;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: slategray;
+  color: white;
+  display: flex;
+  height: 60px;
+  padding: 15px;
+  display: flex; flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+}
+h2 {
+  font-size: 30pt;
+  display: inline-block; border-block-style: solid;background-origin: padding-box;align-items: center;
 }
