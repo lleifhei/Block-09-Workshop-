@@ -1,5 +1,5 @@
 html {
-  background-color: orange;
+  background-color: whitesmoke;
 }
 body {
   color: white;
@@ -62,6 +62,18 @@ h2 {
   font-size: 30pt;
   display: inline-block; border-block-style: solid;background-origin: padding-box;align-items: center;
 }
-@media screen {;
-  
+@media screen and (max-width: 1680px) and (max-height: 1050px) {
+  html {
+    background-color: orange;
+  }
+}
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+  html {
+    background-color: red
+  }
+}
+@media screen and (max-width: 480px) and (max-height: 320px) {
+  html {
+    background-color: blue;
+  }
 }
