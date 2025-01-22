@@ -62,3 +62,6 @@ h2 {
   font-size: 30pt;
   display: inline-block; border-block-style: solid;background-origin: padding-box;align-items: center;
 }
+@media screen {;
+  
+}
